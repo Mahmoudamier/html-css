@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #f0f0f0;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: #2a836a;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #309175;
+    font-weight: 700;
+    font-size: 1em;
+    margin-right: 20px;
+}
+
+.navigation a:last-child {
+    margin-right: 0;
+}
+
+.navigation a:hover {
+    color: rgb(28, 24, 24);
+}
+
+section {
+    padding: 100px 200px;
+}
+
+.main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(/images/wallpaperflare.com_wallpaper.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: white;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    color: #3ca688;
+    font-size: 3em;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.main h3 {
+    color: white;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: white;
+    background-color: #3ca688;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 0.9375em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+
+.main-btn:hover {
+    background-color: rgb(28, 24, 24);
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: white;
+    font-size: 1.7em;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.social-icons h2 {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.services {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2em;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.service {
+    margin-bottom: 40px;
+}
+
+.service i {
+    font-size: 3em;
+    color: #3ca688;
+}
+
+.service h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
